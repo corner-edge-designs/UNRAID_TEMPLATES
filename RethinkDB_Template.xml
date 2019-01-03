@@ -14,7 +14,7 @@
    Live Database intergration.[br]&#xD;
   </Overview>
   <Category>Database:Server</Category>
-  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8400]/</WebUI>
   <TemplateURL/>
   <Icon>http://groundknack.net/rethink-icon.png</Icon>
   <ExtraParams/>
