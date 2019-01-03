@@ -12,7 +12,7 @@
   <Category/>
   <WebUI/>
   <TemplateURL/>
-  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <Icon>http://groundknack.net/rethink-icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
