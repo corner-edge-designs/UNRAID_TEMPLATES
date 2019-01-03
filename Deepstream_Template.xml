@@ -8,7 +8,9 @@
   <Privileged>true</Privileged>
   <Support>https://hub.docker.com/r/dockerdevkypemmanuel/deepstream-unraid/</Support>
   <Project/>
-  <Overview>   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
+  <Overview>[span style='color: darkblue; font-size:18px;'][b]Deepstream[/b][/span][br][br]
+ 
+Deepstream is a powerful websocket server that syncs realtime data between browsers, smartphones, backends and the IoT</Overview>
   <Category/>
   <WebUI/>
   <TemplateURL/>
