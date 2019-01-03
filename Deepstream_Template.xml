@@ -43,7 +43,7 @@
   </Data>
   <Environment/>
   <Labels/>
-  <Config Name="/data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/Docker/DeepStream/data/</Config>
-  <Config Name="/config" Target="/etc/deepstream" Default="" Mode="rw,slave" Description="Container Path: /etc" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/Docker/DeepStream/config/</Config>
-  <Config Name="Host Path 3" Target="/var/lib/deepstream" Default="" Mode="rw" Description="Container Path: /var/lib/deepstream" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Docker/DeepStream/pluginsLib</Config>
+  <Config Name="/data" Target="/data" Default="" Mode="rw" Description="Data" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/Docker/DeepStream/data/</Config>
+  <Config Name="/config" Target="/etc/deepstream" Default="" Mode="rw,slave" Description="Config" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/Docker/DeepStream/config/</Config>
+  <Config Name="Host Path 3" Target="/var/lib/deepstream" Default="" Mode="rw" Description="Plugin Library" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Docker/DeepStream/pluginsLib</Config>
 </Container>
