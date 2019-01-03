@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DeepStream</Name>
+  <Repository>dockerdevkypemmanuel/deepstream-unraid</Repository>
+  <Registry>https://hub.docker.com/r/dockerdevkypemmanuel/deepstream-unraid/~/dockerfile/</Registry>
+  <Network>br0</Network>
+  <Shell>bash</Shell>
+  <Privileged>true</Privileged>
+  <Support>https://hub.docker.com/r/dockerdevkypemmanuel/deepstream-unraid/</Support>
+  <Project/>
+  <Overview>   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>/plugins/dynamix.docker.manager/images/question.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1546474755</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>   Converted By Community Applications   Always verify this template (and values) against the dockerhub support page for the container</Description>
+  <Networking>
+    <Mode>br0</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/disk1/Docker/DeepStream/data/</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/disk1/Docker/DeepStream/config/</HostDir>
+      <ContainerDir>/etc/deepstream</ContainerDir>
+      <Mode>rw,slave</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/mnt/user/Docker/DeepStream/pluginsLib</HostDir>
+      <ContainerDir>/var/lib/deepstream</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="/data" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/Docker/DeepStream/data/</Config>
+  <Config Name="/config" Target="/etc/deepstream" Default="" Mode="rw,slave" Description="Container Path: /etc" Type="Path" Display="always" Required="false" Mask="false">/mnt/disk1/Docker/DeepStream/config/</Config>
+  <Config Name="Host Path 3" Target="/var/lib/deepstream" Default="" Mode="rw" Description="Container Path: /var/lib/deepstream" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/Docker/DeepStream/pluginsLib</Config>
+</Container>

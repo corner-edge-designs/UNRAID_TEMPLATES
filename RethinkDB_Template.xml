@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>GK_Website_RethinkDB</Name>
+  <Repository>dockerdevkypemmanuel/rethinkdb_unraid</Repository>
+  <Registry/>
+  <Network>br0</Network>
+  <MyIP>172.151.0.2</MyIP>
+  <Shell>sh</Shell>
+  <Privileged>true</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>&#xD;
+    [b]RethinkDB Database Server[/b][br][br]&#xD;
+   Live Database intergration.[br]&#xD;
+  </Overview>
+  <Category>Database:Server</Category>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon>http://groundknack.net/rethink-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1546474731</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>&#xD;
+    [b]RethinkDB Database Server[/b][br][br]&#xD;
+   Live Database intergration.[br]&#xD;
+  </Description>
+  <Networking>
+    <Mode>br0</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/Docker/GK_RethinkDB_Website/</HostDir>
+      <ContainerDir>/data</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Host Path 1" Target="/data" Default="" Mode="rw" Description="Container Path: /data" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/Docker/GK_RethinkDB_Website/</Config>
+</Container>
